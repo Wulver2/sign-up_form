@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Slackey&display=swap');
+
 body {
     height: 100%;
     margin: 0;
+    font-family: 'Slackey';
 }
 
 .container {
-    display: flex;
-    flex: 1;
 }
 
 .side_bar {
@@ -29,7 +30,7 @@ body {
 }
 
 .sign_up {
-    width: 100px;
+    width: 540px;
     margin-left: 460px;
     display: flex;
     flex-direction: column;
@@ -55,4 +56,21 @@ button {
     border-radius: 10px;
     color: white;
     border: 0;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
 }
